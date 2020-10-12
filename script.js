@@ -24,7 +24,7 @@ $(document).ready(function () {
       } else {
         $(".s1").stop().animate({"top":"0"},500);
       }
-      if (s_top > 300) {
+      if (s_top > 200) {
         $(".skills_progress").stop().animate({"left":"0%"},2000);
       } else {
         $(".skills_progress").stop().animate({"left":"-100%"},2000);
