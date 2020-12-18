@@ -31,8 +31,7 @@ start();
 
 
 
-
-var mainFix = new Swiper('#slide .img_slide', {
+var mainFix = new Swiper('#mainFix .swiper-container', {
     direction: "horizontal",
     autoplay: {
         delay: 4000,
