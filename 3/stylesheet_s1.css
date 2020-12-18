@@ -20,6 +20,9 @@
 
 
 
+.wrapper { position:relative;height:auto;}
+.topArea { padding-top:20px;}
+.topArea:after { content:""; display:block; clear:both; }
 
 
 
