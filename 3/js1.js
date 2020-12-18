@@ -28,23 +28,6 @@ start();
             
 
 
-    $( ".next" ).click(function() {
-        if(!$("#img_slide>li").last().is(":visible")){
-            $("#img_slide>li:visible").hide().next("li").fadeIn("40");
-            
-        }
-       
-        return false;
-    });
-    
-    $( ".prev" ).click(function() {
-        if(!$("#img_slide>li").first().is(":visible")){
-            $("#img_slide>li:visible").hide().prev("li").fadeIn("40");
-        
-        }
-     
-        return false;
-    });
 
 
 
